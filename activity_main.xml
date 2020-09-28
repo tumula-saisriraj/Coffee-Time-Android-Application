@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenReaderFocusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:background="#233446"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textSize="45dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/cortado" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Mexican Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="459"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv2"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv69"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/sanfrappe" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Caffè Americano"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="559"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub1"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv5"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add1"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv70"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/iced" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Iced Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="559"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub2"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv8"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add2"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv71"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/carajillo" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Carajillo"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="639"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub3"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv11"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add3"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv72"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/black" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="frappé coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="649"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub4"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv14"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add4"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv73"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/ca" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="The Flat White"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="659"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub5"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv17"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add5"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv74"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/coffee" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Eiskaffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="669"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub6"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv20"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add6"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv75"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/gingerbread" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Vienna coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="679"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub7"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv23"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add7"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv76"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/caffe" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Bicerin"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="689"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub8"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv25"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv26"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add8"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv77"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/bicerin" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Ca phe sua da"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv27"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="699"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub9"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv28"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv29"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add9"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv78"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/brown" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Cortado"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv30"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="739"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub10"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv31"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv32"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add10"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv79"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/hot" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Thai Iced Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv33"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="759"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub11"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv34"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv35"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add11"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv80"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/icede" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Hot Buttered Toffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv36"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="769"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:onClick="sub12"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:background="#233446"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv37"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv38"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add12"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv81"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/peppermint" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Black Magic Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv39"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="779"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub13"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv40"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv41"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add13"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv82"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/mexican" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Steaming Mocha Cocoa"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv42"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="799"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub14"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv43"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv44"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add14"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv83"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/no" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Turkish Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv45"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="839"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub15"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv46"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv47"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add15"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv84"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/red" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Red Eye"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv48"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="859"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub16"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv49"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv50"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add16"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv85"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/steaming" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Gingerbread Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv51"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="879"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub17"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv52"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv53"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add17"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv86"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/carajillo" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Iced Espresso Marvo"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv54"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="899"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub18"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv55"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv56"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add18"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv87"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/thai" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Coffee Imperial"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv57"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="939"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub19"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv58"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv59"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add19"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv88"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/tschiffliks" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="No Sugar Added Iced Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv60"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="959"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub20"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv61"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv62"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add20"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv89"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/turkish" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Peppermint Patty Coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv63"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="979"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub21"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv64"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv65"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add21"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv90"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#233446"
+                android:src="@drawable/vienna" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:fontFamily="cursive"
+                android:paddingTop="10dp"
+                android:text="Brown coffee"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv66"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="999"
+                android:textAlignment="center"
+                android:textColor="#233446"
+                android:textSize="22dp" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="sub22"
+                android:paddingBottom="10dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/tv67"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="275dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="15dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#233446" />
+
+            <Button
+                android:id="@+id/tv68"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-50dp"
+                android:background="#233446"
+                android:onClick="add22"
+                android:paddingBottom="10dp"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv91"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="-50dp"
+                android:paddingTop="4.5dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#260404"
+                android:textSize="22dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Price"
+        android:textSize="28dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="#233446"
+        android:layout_marginTop="678dp"
+        android:paddingTop="2dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="0"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="#233446"
+        android:id="@+id/result"
+        android:layout_marginTop="678dp"
+        android:layout_marginLeft="100dp"
+        android:paddingTop="-5dp"/>
+    <Button
+        android:layout_width="112dp"
+        android:layout_height="50dp"
+        android:text="Buy"
+        android:background="#233446"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:id="@+id/restult1"
+        android:layout_marginTop="678dp"
+        android:layout_marginLeft="300dp"/>
+</RelativeLayout>
